@@ -78,3 +78,30 @@ int main() {
 
     return 0;
 }
+
+
+/*Sample output
+Orders before sorting:
+Order 1 | Timestamp: 951158240 | Value: 338.25
+Order 2 | Timestamp: 319170166 | Value: 819.48
+Order 3 | Timestamp: 231892469 | Value: 57.35
+Order 4 | Timestamp: 29947539 | Value: 138.85
+Order 5 | Timestamp: 305066447 | Value: 455.59
+Order 6 | Timestamp: 2706906 | Value: 302.12
+Order 7 | Timestamp: 498456952 | Value: 968.41
+Order 8 | Timestamp: 392085531 | Value: 329.94
+Order 9 | Timestamp: 144515845 | Value: 72.6
+Order 10 | Timestamp: 904008819 | Value: 265.05
+
+Orders after sorting by timestamp:
+Order 6 | Timestamp: 2706906 | Value: 302.12
+Order 4 | Timestamp: 29947539 | Value: 138.85
+Order 19 | Timestamp: 44311472 | Value: 123.93
+Order 20 | Timestamp: 53145263 | Value: 942.69
+Order 11 | Timestamp: 131013961 | Value: 238.21
+Order 9 | Timestamp: 144515845 | Value: 72.6
+Order 16 | Timestamp: 176219219 | Value: 665.54
+Order 18 | Timestamp: 202248503 | Value: 313.77
+Order 15 | Timestamp: 215191963 | Value: 887.32
+Order 3 | Timestamp: 231892469 | Value: 57.35
+*/
